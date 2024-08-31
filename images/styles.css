@@ -1,0 +1,90 @@
+header {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 215, 0);
+    text-align: center;
+    padding: 23px 0;
+    border-top: 9px solid rgb(255, 215, 0);
+    position: fixed;
+    width: 100%;
+}
+
+/* Estilo para a logo */
+header .logo {
+    position: absolute; /* Posiciona a logo de forma absoluta */
+    left: 10px; /* Espaçamento da borda esquerda do cabeçalho */
+    width: 50px;
+    top: 50%; /* Centraliza verticalmente em relação ao cabeçalho */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+header .logo img {
+    height: 50px; /* Ajusta a altura da logo */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    position: absolute; /* Posiciona o menu de forma absoluta */
+    top: 50%; /* Centraliza verticalmente em relação ao cabeçalho */
+    left: 50%; /* Move o menu para o meio horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente o menu */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens do menu horizontalmente */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaço entre os itens do menu */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+body {
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh; 
+}
+/* Outras regras para o layout do corpo, conteúdo principal e rodapé */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer img {
+    height: 30px;
+    margin: 0 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    text-align: left;
+    margin: 0 auto;
+    display: inline-block;
+}
